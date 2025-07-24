@@ -52,7 +52,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <div class="mb-3">
                 <label for="study_plan" class="form-label">แผนการเรียน</label>
                 <select class="form-select" id="study_plan" name="study_plan" required>
-                    <option value="เทคโนโลยีวิศวกรรมศาสตร์">เทคโนโลยีวิศวกรรมศาสตร์</option>
+                    <option value="เทคโนโลยี">เทคโนโลยี</option>
+                    <option value="วิศวกรรมศาสตร์">วิศวกรรมศาสตร์</option>
                     <option value="ศิลปศาสตร์">ศิลปศาสตร์</option>
                     <option value="ภาษาอังกฤษ">ภาษาอังกฤษ</option>
                     <option value="สถาปัตยกรรม">สถาปัตยกรรม</option>
